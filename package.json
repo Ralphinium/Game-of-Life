@@ -1,0 +1,17 @@
+{
+  "name": "Game-of-Life",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life in Electron and Python",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "zerorpc": "fyears/zerorpc-node"
+  },
+  "devDependencies": {
+    "electron": "1.4.15",
+    "electron-packager": "^8.5.1",
+    "electron-rebuild": "^1.5.7"
+  }
+}
